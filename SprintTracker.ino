@@ -1,14 +1,3 @@
- /*
- * HC-SR04 VCC - > TTGO 5V
- * HC-SR04 GND - > TTGO GND
- * HC-SR04 TRIG - > TTGO 32
- * HC-SR04 ECHO - > TTGO 33
- * 
- * Buzzer + -> TTGO 17
- * Buzzer - -> TTGO GND
- * 
- * Buttons: 37, 38, 36
- */
 #include "Free_Fonts.h" // Include the header file attached to this sketch
 #include "SPI.h"
 #include "TFT_eSPI.h"
